@@ -53,10 +53,21 @@ body{
 .head-3{
   padding: 4px 10px 8px 10px;
   background-color: #a34300;
+  display: flex;
+  align-items: center;
 }
 
-.blog, .review{
+.blog{
   margin-top: 5px;
+  font-family: "Roboto", sans-serif;
+  color: #ffaf00;
+  font-size: 15px;
+  font-weight: 800;
+  transition: 0.5s;
+  letter-spacing: 1px;
+}
+
+.review{
   font-family: "Roboto", sans-serif;
   color: #ffaf00;
   font-size: 15px;
@@ -70,6 +81,8 @@ body{
   padding: 4px 10px 8px 10px;
   transition: 0.5s;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .head-4:hover{
@@ -81,6 +94,8 @@ body{
   padding: 4px 4px 4px 2px;
   transition: 0.5s;
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .head-5:hover{
@@ -135,11 +150,11 @@ body{
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-top: 35px;
+  margin-top: 45px;
 }
 
 .left-4{
-  margin-top: 35px;
+  margin-top: 45px;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -153,6 +168,12 @@ body{
   justify-content: center;
   width: 350px;
   align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.left-box-1:hover{
+  background: white;
 }
 
 .left-box-1 img{
@@ -171,6 +192,12 @@ body{
   gap: 10px;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.left-box-2:hover{
+  background: white;
 }
 
 .left-box-2 img{
@@ -189,6 +216,12 @@ body{
   align-items: center;
   justify-content: center;
   width: 350px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.left-box-3:hover{
+  background: white;
 }
 
 .left-box-3 img{
@@ -207,7 +240,12 @@ body{
   gap: 10px;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+}
 
+.left-box-4:hover{
+  background-color: white;
 }
 
 .left-box-4 img{
@@ -227,4 +265,301 @@ body{
 .video{
   width: 1000px;
   height: 500px;
+}
+
+.video-game-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  flex-direction: column;
+  margin-inline: auto;
+}
+
+.para-1{
+  font-size: 30px;
+  color: #ffaf00;
+  width: 740px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.video-game-3{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 40px;
+  
+}
+
+.game-4{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.game-5{
+  display: flex;
+  gap: 45px;
+  flex-direction: column;
+}
+
+.game-p-1{
+  font-size: 22px;
+  color: #ffaf00;
+  width: 180px;
+}
+
+.game-p-2{
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffaf00;
+  width: 320px;
+}
+
+.game-p-3{
+  font-size: 22px;
+  color: #ffaf00;
+  line-height: 28px;
+  width: 300px;
+}
+
+.game-p-4{
+  line-height: 28px;
+  font-size: 22px;
+  color: #ffaf00;
+  width: 320px;
+}
+
+.game-p-5{
+  line-height: 28px;
+  font-size: 22px;
+  color: #ffaf00;
+  width: 340px;
+}
+
+.game-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  gap: 80px;
+}
+
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-left: 15px solid #973700;
+	border-bottom: 15px solid transparent;
+  position: absolute;
+  left: 91%;
+  /* rotate: 180deg; */
+  z-index: 2;
+}
+
+.boxx{
+  z-index: 0;
+  left: 94%;
+  width: 22px;
+  position: absolute;
+  height: 27px;
+  background-color: #210002;
+}
+
+.game-btn-1{
+  background-color: #973700;
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  width: 350px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+  height: 28px;
+}
+
+.game-btn-1:hover{
+  background-color: #ffaf00;
+}
+
+.screen{
+  font-size: 22px;
+}
+
+.game-btn-2{
+  background-color: #973700;
+  display: flex;
+  padding: 0px 10px 0px 10px;
+  width: 350px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  cursor: pointer;
+  height: 28px;
+}
+
+.game-btn-2:hover{
+  background-color: #ffaf00;
+}
+
+.faq{
+  font-size: 22px;
+}
+
+.game-img{
+  display: flex;
+  margin-top: 45px;
+  margin-inline: auto;
+  flex-direction: column;
+}
+
+.two{
+  display: flex;
+  gap: 70px;
+}
+
+.four{
+  display: flex;
+  gap: 70px;
+  margin-top: 40px;
+}
+
+.width{
+  width: 500px;
+  transition: 0.5s;
+  cursor: pointer;
+  height: auto;
+}
+
+.width:hover{
+  color: #fff;
+}
+
+.visual{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vis{
+  color: #ffaf00;
+  font-weight: 500;
+  font-size: 50px;
+  width: 650px;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.para-week{
+  color: #963700;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-top: 20px;
+}
+
+.tech{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-top: 70px;
+}
+
+.tech-img{
+  width: 80px;
+}
+
+.tech-button-1{
+  background-color: #973700;
+  width: 380px;
+  text-align: center;
+  padding: 3px;
+  font-size: 20px;
+  color: #210002;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tech-button-1:hover{
+  background-color: #ffaf00;
+}
+
+.tech-button-2{
+  background-color: #973700;
+  width: 380px;
+  text-align: center;
+  padding: 3px;
+  font-size: 20px;
+  color: #210002;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tech-button-2:hover{
+  background-color: #ffaf00;
+}
+
+.chines{
+  text-align: center;
+  margin-top: 30px;
+  color: #ffaf00;
+  letter-spacing: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.chines:hover{
+  color: #fff;
+}
+
+.last-p{
+  display: flex;
+  justify-content: center;
+}
+
+.last-para{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 35px;
+  color: #963700;
+  width: 500px;
+  text-align: center;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  margin-top: 80px;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.foot-img-1{
+  background-color: #973700;
+  width: 130px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.foot-img-1:hover{
+  background-color: #ffaf00;
+}
+
+.foot-img-2{
+  background-color: #973700;
+  width: 75px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.foot-img-2:hover{
+  background-color: #ffaf00;
 }
